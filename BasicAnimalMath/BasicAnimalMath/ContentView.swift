@@ -7,19 +7,23 @@
 
 import SwiftUI
 
-struct AdditionProblems {
-    
-}
-
 struct ContentView: View {
+    @State private var difficultyOptions = ["Very Easy", "Easy", "Medium", "Hard", "Very Hard"]
+    @State private var problemTypes = ["Addition", "Subtraction", "Both"]
+    
+    @State private var selectedDifficulty = "Very Easy"
+    @State private var selectedType = "Addition"
+    
+    @State private var showingSettings = false
+    
     var body: some View {
         NavigationView {
             ZStack {
                 Color.green.ignoresSafeArea()
                 VStack {
-                    
+
                     Spacer()
-                    
+
                     VStack {
                         Section {
                             HStack {
@@ -30,7 +34,7 @@ struct ContentView: View {
                                         .scaledToFit()
                                 }
                             }
-                            
+
                             Text("4")
                                 .font(.system(size: 40))
                                 .foregroundColor(.primary)
@@ -43,7 +47,7 @@ struct ContentView: View {
                                 .font(.system(size: 40))
                                 .foregroundColor(.primary)
                                 .padding()
-                            
+
                             HStack {
                                 ForEach(0..<2, id: \.self) { num in
                                     Image("giraffe")
@@ -57,9 +61,9 @@ struct ContentView: View {
                     .frame(width: 300, height: 400)
                     .background(.ultraThinMaterial)
                     .clipShape(RoundedRectangle(cornerRadius: 25))
-                    
+
                     Spacer()
-                    
+
                     VStack {
                         Section {
                             ForEach(0..<4, id:\.self) { num in
@@ -73,7 +77,7 @@ struct ContentView: View {
                         .background(.thinMaterial)
                         .clipShape(RoundedRectangle(cornerRadius: 25))
                     } // Answer Picker Window
-                    
+
                     Spacer()
                 }
             }

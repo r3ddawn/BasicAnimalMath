@@ -11,6 +11,8 @@
 		C51C818E29ADB1F100066092 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C818D29ADB1F100066092 /* ContentView.swift */; };
 		C51C819029ADB1F200066092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C818F29ADB1F200066092 /* Assets.xcassets */; };
 		C51C819329ADB1F200066092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C819229ADB1F200066092 /* Preview Assets.xcassets */; };
+		C51C81A029B3AA7500066092 /* AdditionProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C819F29B3AA7500066092 /* AdditionProblems.swift */; };
+		C5F41D5729B407130070A74D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F41D5629B407130070A74D /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C51C818D29ADB1F100066092 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C51C818F29ADB1F200066092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51C819229ADB1F200066092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C51C819F29B3AA7500066092 /* AdditionProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionProblems.swift; sourceTree = "<group>"; };
+		C5F41D5629B407130070A74D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		C51C817F29ADB1F100066092 = {
 			isa = PBXGroup;
 			children = (
+				C51C819F29B3AA7500066092 /* AdditionProblems.swift */,
 				C51C818A29ADB1F100066092 /* BasicAnimalMath */,
 				C51C818929ADB1F100066092 /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				C51C818B29ADB1F100066092 /* BasicAnimalMathApp.swift */,
 				C51C818D29ADB1F100066092 /* ContentView.swift */,
+				C5F41D5629B407130070A74D /* Settings.swift */,
 				C51C818F29ADB1F200066092 /* Assets.xcassets */,
 				C51C819129ADB1F200066092 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51C818E29ADB1F100066092 /* ContentView.swift in Sources */,
+				C51C81A029B3AA7500066092 /* AdditionProblems.swift in Sources */,
+				C5F41D5729B407130070A74D /* Settings.swift in Sources */,
 				C51C818C29ADB1F100066092 /* BasicAnimalMathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

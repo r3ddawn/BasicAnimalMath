@@ -26,7 +26,7 @@ struct AdditionProblems {
             case "Very Easy":
                 return 3
             case "Easy":
-                return 6
+                return 5
             case "Medium":
                 return 10
             case "Hard":
@@ -38,12 +38,20 @@ struct AdditionProblems {
         }
     }
     
-    func getProblem(number: Int) -> String {
-        "\(problems[number][0]) + \(problems[number][1])"
+    func getFirstNumber(_ number: Int) -> Int {
+        problems[number][0]
+    }
+    
+    func getSecondNumber(_ number: Int) -> Int {
+        problems[number][1]
     }
     
     func getAnswer(number: Int) -> Int {
         problems[number][2]
+    }
+    
+    func count() -> Int {
+        problems.count
     }
     
 }
